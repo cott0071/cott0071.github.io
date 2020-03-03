@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<!-- I had Game of Thrones on the brain throughout all of this assignment, I blame reading week. -->
+<head>
+	<title>Form</title>
+	<header>
+		<h2>Data Collection Fun Form</h2>
+	</header>
+</head>
+<body>
+	<form>
+		<label for="fname">First Name:</label><br>
+  		<input type="text" id="first name" name="first name" placeholder="Sansa"><br>
+  		<label for="lname">Last Name:</label><br>
+  		<input type="text" id="last name" name="last name" placeholder="Stark"><br>
+  		<label for="email">Email ID:</label><br>
+  		<input type="text" id="emailid" name="email id" placeholder="sansa@starkmail.org"><br>
+  		<label for="password">Password (cAsE sEnSiTiVe):</label><br>
+  		<input type="text" id="password" name="password"><br>
+  		<label for="introduction">Introduction:</label><br>
+  		<textarea name="introduction" id="introduction" rows="10" cols="30" placeholder="My name is Sansa Stark, my favourite food is lemon cakes. I really hated the ending to Game of Thrones."></textarea><br>
+  		<label for="dob">Date of Birth/Name Day:</label><br>
+  		<input type="date" id="dob" name="date of birth" placeholder="yyyy - mm - dd"><br>
+  		<label for="phone number">Phone Number:</label><br>
+  		<input type="number" name="phone number" min="10" max="20" placeholder=""><br>
+  		Indicate your gender:<br>
+  		<input type="radio" id="male" name="gender" value="male">
+  		<label for="male">Male</label><br>
+  		<input type="radio" id="female" name="gender" value="female">
+  		<label for="female">Female</label><br>
+  		<input type="radio" id="non-binary" name="gender" value="non-binary">
+  		<label for="non-binary">Non-Binary</label><br>
+  		<input type="radio" id="rather not disclose" name="gender" value="rather not disclose">
+  		<label for="rather not disclose">Rather Not Disclose</label><br>
+  		<label for="address">Address:</label><br>
+  		<input type="text" id="Address" name="Address" placeholder="8 Bad Season Lane"><br>
+  		<label for="City">City:</label><br>
+  		<input type="text" id="city" name="city" placeholder="Winterfell"><br>
+  		Province:<br>
+  		<select id="cars" name="cars">
+  			<option value="winterfell">Winterfell</option>
+  			<option value="king's landing">King's Landing</option>
+ 			<option value="the eyrie">The Eyrie</option>
+  			<option value="the stormlands">The Stormlands</option>
+  			<option value="the reach">The Reach</option>
+  			<option value="the westerlands">The Westerlands</option>
+  			<option value="the iron islands">The Iron Islands</option>
+  			<option value="dorne">Dorne</option>
+		</select><br>
+		Country/Region:<br>
+		<select>
+			<option value="westeros">Westeros/The Seven Kingdoms</option>
+			<option value="the riverlands">The Riverlands</option>
+			<option value="the crownlands">The Crownlands</option>
+		</select><br>
+		<label for="postal code">Postal Code:</label><br>
+		<input type="text" name="postal code" id="postal code" placeholder="H0H 0H0"><br>
+		Interests:<br>
+		<input type="checkbox" id="lemon cakes" name="lemon cakes" value="Food">
+		<label for="lemon cakes">Lemon Cakes</label><br>
+		<input type="checkbox" id="music" name="music" value="Music">
+		<label for="music">Music</label><br>
+		<input type="checkbox" id="poetry" name="poetry" value="Poetry">
+		<label for="poetry">Poetry</label><br>
+		<input type="checkbox" id="singing" name="singing" value="Singing">
+		<label for="singing">Singing</label><br>
+		<input type="checkbox" id="needlework" name="needlework" value="Needlework">
+		<label for="needlework">Needlework</label><br>
+		<label for="url">Website Address:</label><br>
+		<input type="url" name="url0" placeholder="www.thenorthremembers.org"><br>
+		<input type="submit" name="Submit">
+		<input type="reset" name="Reset">
+	</form>
+</body>
