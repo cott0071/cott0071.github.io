@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="utf-8">
+	<title>Final</title>
+</head>
+<body>
+	<header class="site-header" id="site-header">
+		<div class="logo">
+			<h1>MY LOGO</h1>
+		</div>
+		<nav class="nav-bar">
+			<a class="a">HOME</a>
+			<a class="a">ABOUT</a>
+			<a class="a">SCHEDULE</a>
+			<a class="a">PORTFOLIO</a>
+			<a class="a">CONTACT</a>
+		</nav>
+	</header>
+	<main class="main" id="main">
+		<div class="about column"></div>
+			<h2 class="headings">ABOUT</h2>
+			<p class="about">
+				On review aggregator Rotten Tomatoes, the series holds an approval rating of 89% based on 75 reviews, with an average rating of 7.88/10. The site's critics consensus reads: "A bizarre true crime story you have to see to believe, Tiger King is a messy and captivating portrait of obsession gone terribly wrong." On Metacritic, which assigns a weighted average score to reviews from mainstream publications, the series has an average score of 75 out of 100, based on 13 critics, indicating "generally favorable reviews". Variety magazine's Caroline Framke called the series "messy yet compelling" and that for "those who love Netflix's particular flavor of true crime and docuseries, [...] Tiger King will undoubtedly scratch a particular itch." Joshua Rivera at The Verge said that "[e]very minute of Tiger King yields some new surprise, an unbelievable turn or charismatic stranger with incredible stories to tell."
+			</p>
+		</div>
+		<div class="img" id="column">
+			<img src="img/tiger-lying-on-grass.jpg" width="325px" height="200px">
+		</div>
+		
+		<table id="table" class="table">
+			<h2 class="headings">SCHEDULE</h2>
+			<thead class="thead">
+				<th>TIME</th>
+				<th>MONDAY</th>
+				<th>TUESDAY</th>
+				<th>WEDNESDAY</th>
+				<th>THURSDAY</th>
+				<th>FRIDAY</th>
+			</thead>
+			<tbody class="tbody">
+				<tr>
+					<td>09:00 - 11:00</td>
+					<td>Communications</td>
+					<td>Client Services</td>
+					<td>Special Collections</td>
+					<td>Directed Research Seminar</td>
+					<td>Client Services</td>
+				</tr>
+				<tr>
+					<td>11:00 - 12:30</td>
+					<td>Reference</td>
+					<td>Internet App</td>
+					<td>Library Software</td>
+					<td>French</td>
+					<td>Reference</td>
+				</tr>
+				<tr>
+					<td>14:00 - 15:00</td>
+					<td>Acquisitions</td>
+					<td>General Elective</td>
+					<td>Marketing</td>
+					<td>Emerging Library Tech</td>
+					<td>Library Software</td>
+				</tr>
+				<tr>
+					<td>15:30 - 17:30</td>
+					<td>French</td>
+					<td>French</td>
+					<td>Acquisitions</td>
+					<td>Subject Analysis</td>
+					<td>Internet App</td>
+				</tr>
+			</tbody>
+		</table>
+		<div class="row main">	
+			<div class="column left form main">
+				<h2 class="headings">EDIT PROFILE</h2>
+				<form class="form" id="form" onsubmit="javascriptInteractivity()">
+					<div>
+						<strong>Name:</strong><input type="text" name="name" placeholder="FName LName" id="inputName" required>
+					</div>
+					<br>
+					<div>
+						<strong>Email:</strong><input type="email" placeholder="email@address.com" id="inputEmail" required>
+					</div>
+					<br>
+					<div>
+						<strong>Address:</strong><input type="text" name="address" placeholder="## Street Name" id="inputAddress" required>
+					</div>
+					<br>
+					<div>
+						<strong>City:</strong><input type="text" name="city" placeholder="City" id="inputCity" required>
+					</div>
+					<br>
+					<div>
+						<strong>Province:</strong>
+						<select name="province" id="inputProvince" required>
+							<option value="">Select Province</option>
+							<option value="AL">Alberta</option>
+							<option value="BC">British Columbia</option>
+							<option value="MB">Manitoba</option>
+							<option value="NB">New Brunswick</option>
+							<option value="NF">Newfoundland</option>
+							<option value="NS">Nova Scotia</option>
+							<option value="NWT">NorthWest Territories</option>
+							<option value="NU">Nunavut</option>
+							<option value="ON">Ontario</option>
+							<option value="PEI">Prince Edward Island</option>
+							<option value="QU">Quebec</option>
+							<option value="SAS">Saskatchewan</option>
+							<option value="YU">Yukon</option>
+						</select>
+					</div>
+					<br>
+					<div>
+						<strong>Postal Code:</strong><input type="text" name="postcode" placeholder="A1A 1A1" id="inputPostCode" required>
+					</div>
+					<br>
+					<input type="submit" value="SUBMIT" id="submitBtn">	
+				</form>
+			</div>
+			<div class="column right main">
+				<h2 class="headings">PROFILE INFO</h2>
+				<div style="main">
+					<div class="profile-info" id="profile-info">
+	            	profile head
+					<p id="name">Joe Tiger</p>
+					<p id="email">JoeTiger@algonquincollege.com</p>
+					<p id="address">1385 Woodroffe Ave</p><p id="city">Nepean,</p><P id="province">ON,</P><p id="postcode">K2G 1V8</p>
+					<letter icon>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer class="footer">
+		<section class="col-footer quick-links">
+		<h3>QUICK LINKS</h3>
+			<nav class="col-footer quick-links">
+				<ul class="clearfix" style="list-style-type: none;">
+					<li>
+						<a href="schedule.html" class="link">SCHEDULE</a>
+					</li>
+					<li>
+						<a href="about.html" class="link">ABOUT</a>
+					</li>
+					<li>
+						<a href="portfolio.html" class="link">PORTFOLIO</a>
+					</li>
+					<li>
+						<a href="contact.html" class="link">CONTACT</a>
+					</li>
+				</ul>
+			</nav>
+		</section>
+		<section class="col-footer social-media">		
+		<h3>FOLLOW US</h3>
+			<nav>
+				<div>
+					<a href="facebook.com" class="link">Facebook</a>
+					<a href="youtube.com" class="link">YouTube</a>
+					<a href="twitter.com" class="link">Twitter</a>
+				</div>
+			</nav>
+			<i class="fas fa-igloo"></i><br>
+			<i class="fas fa-address-book"></i><br>
+			<i class="fas fa-address-card"></i><br>
+		</section>
+		<section class="col-footer address">
+		<h3>ADDRESS</h3>
+			<div>
+				<p> 
+				1385 Woodroffe Ave,
+				<br>
+				Nepean, ON, K2G 1V8
+				<br>
+				Canada
+			  	</p>
+			</div>
+		</section>
+	</footer>
+</body>
+</html>
